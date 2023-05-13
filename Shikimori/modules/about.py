@@ -72,14 +72,6 @@ def Shikimori_about_callback(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton(text="Github", callback_data="github_"),
-                InlineKeyboardButton(text="License", callback_data="license_"),
-                ],
-                [
-                HMMM,
-                InlineKeyboardButton(text="Documentation", url="https://some1hing.gitbook.io/shikimori-bot/"),
-                ],
-                [
                 InlineKeyboardButton(text="Back", callback_data="home_"),
                 ],
             ]
